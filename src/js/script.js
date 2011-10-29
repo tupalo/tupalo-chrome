@@ -43,7 +43,7 @@ function renderSpot(spot){
       ).append(
         $("<div>").attr('class', 'spot_contact').html(spotContactInfo(spot))
       ).append(
-       $("<a>").attr('class', 'btn on_tupalo').text("Show on Tupalo.com").attr('href', spot.spot_url).attr('target','_blank')
+       $("<a>").attr('class', 'btn primary on_tupalo').text("Show on Tupalo.com").attr('href', spot.spot_url).attr('target','_blank')
       )
     )
   )
