@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/background.gif);
+}
+div.container {
+  width: 960px;
+}
+#spots {
+  margin-left: -10px;
+  border: 1px solid #C6C6C6;
+  margin-bottom: -1px;
+  width: 959px;
+}
+img.static_map {
+width: 200px;
+height: 200px;
+}
+
+div.span-one-third {
+  -webkit-transition: background-color 0.1s linear;	
+  width: 239px;
+  height: 210px;
+  vertical-align: top;
+  border-bottom: 1px solid #C6C6C6;
+  border-right: 1px solid #C6C6C6;
+  margin-left: 0;
+  position: relative;
+  background-color: #F8F8F8;
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,.05);
+  overflow: hidden;
+}
+
+div.span-one-third:hover {
+  -webkit-transition: background-color 0.1s linear;	
+  background-color: #F0F0F0;
+}
+
+div.span-one-third.no_bottom_border {
+  border-bottom: none;
+}
+
+div.span-one-third:nth-child(4n+4) {
+  border-right: none;
+}
+
+div.span-one-third:hover {
+  border-color: #A6A6A6;
+}
+
+div.span-one-third img {
+  left: 10px;
+  top: 10px;
+  position: absolute;
+}
+
+div.span-one-third div.spot_data {
+	-webkit-transition: background-color 0.1s linear, top 0.3s ease-in-out;	
+	position: absolute;
+  left: 10px;
+  top: 160px;
+  width: 220px;
+  height: 200px;
+  background-color: #F8F8F8;
+}
+
+div.span-one-third:hover div.spot_data {
+	-webkit-transition: background-color 0.1s linear, top 0.3s ease-in-out;	
+  top: 10px;
+  width: 220px;
+  background-color: #F0F0F0;
+}
+
+div.spot_distance {
+  float: right;
+}
+
+div.spot_contact {
+  width: 220px;
+  margin-top: 10px;
+  color: #666;
+}
+
+div.spot_contact b {
+  color: #000;
+}
+
+div.spot_name {
+  width: 220px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #262626;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Open Sans',arial,sans-serif;
+}
+
+a.on_tupalo {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+}
+
+div.spot_rating {
+  margin-top: 5px;
+  font-size: 0px;
+  line-height: 0;
+  height: 15px;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  width: 84px;  
+  overflow: hidden;
+}
+
+.rating0 {
+background-position: -227px -1px
+}
+.rating1,.rating1_0 {
+background-position: -227px -32px
+}
+.rating1_5 {
+background-position: -227px -47px
+}
+.rating2,.rating2_0 {
+background-position: -227px -63px
+}
+.rating2_5 {
+background-position: -227px -78px
+}
+.rating3,.rating3_0 {
+background-position: -227px -94px
+}
+.rating3_5 {
+background-position: -227px -110px
+}
+.rating4,.rating4_0 {
+background-position: -227px -126px
+}
+.rating4_5 {
+background-position: -227px -141px
+}
+.rating5,.rating5_0 {
+background-position: -227px -157px
+}

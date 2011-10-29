@@ -1,0 +1,19 @@
+{
+  "name": "Tupalo",
+  "description": "Find awesome spots around you",
+  "version": "1",
+  "default_locale": "en",
+  
+  "app": {
+    "launch": {
+      "local_path": "src/main.html"
+    }
+  },
+  "permissions": [
+    "geolocation",
+    "http://tupalo.com/"
+  ],
+  "icons": { "16": "icons/icon16.png",
+             "48": "icons/icon48.png",
+            "128": "icons/icon128.png" }
+}
