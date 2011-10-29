@@ -23,7 +23,8 @@ function renderSpots(data){
   logger("Got spots: ");
   logger(spots);
   // spots = [spots[0], spots[1], spots[2], spots[3], spots[4], spots[5], spots[6], spots[7], spots[8], spots[9]];
-  $(spots.sort(function(a, b){ return a.spot.stars < b.spot.stars })).each(function(index){
+  spots = spots.sort(function(a,b){ if (a.spot.distance < b.spot.distance){ return -1 } else { return 1 } });
+  $(spots).each(function(index){
     renderSpot(this.spot);
   });
   var number_of_spots = spots.length;
