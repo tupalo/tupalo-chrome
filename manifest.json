@@ -1,7 +1,7 @@
 {
-  "name": "Tupalo",
-  "description": "Find awesome spots around you",
-  "version": "1",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "version": "0.0.0.2",
   "default_locale": "en",
   
   "app": {

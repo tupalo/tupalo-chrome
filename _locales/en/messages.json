@@ -1,9 +1,10 @@
-/* http://code.google.com/chrome/extensions/i18n.html */
-
-/* An Example String */
 {
-  "hello_string": {
-    "message": "Greetings, elf!",
-    "description": "Shown when the app loads"
+  "appName": {
+    "message": "Tupalo.com - Nearby-Explorer",
+    "description": "The Tupalo.com Nearby-Explorer shows you cool stuff around you!"
+  },
+  "appDesc": {
+    "message": "This app shows you cool stuff around you!", 
+    "description":"The Tupalo.com Nearby-Explorer shows you great stuff around you, using geolocation and the Tupalo.com API."
   }
 }
