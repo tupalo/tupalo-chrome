@@ -30,6 +30,7 @@ function renderSpots(data){
   var number_of_spots = spots.length;
   var number_of_spots_in_last_row = ((number_of_spots >= 4) && (number_of_spots % 4 == 0)) ? 4 : (number_of_spots % 4)
   $('#spots > div.spot').removeClass('no_bottom_border').slice(-number_of_spots_in_last_row).addClass('no_bottom_border');
+  $('#spots').fadeIn();
 }
 
 function renderSpot(spot){
